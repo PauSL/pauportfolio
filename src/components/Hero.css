@@ -1,0 +1,795 @@
+   
+    .home {
+        height: 100vh;
+        width: 100%;
+        background: url('../assets/img/herobackwth2.jpg') no-repeat;
+        background-size: cover;
+        background-position: right;
+        padding: 12rem 0;
+    }
+
+    .hero-text {
+        display: grid;
+        row-gap: 3rem;
+        padding: 0 3rem;
+    }
+
+    .hero-text h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        text-align: center;
+        font-size: 1rem;
+        color: rgb(233, 233, 233);
+    }
+
+    .hero-text h1 span {
+        color: #06f6fd;
+    }
+
+    .str {
+        color: #06f6fd;
+    }
+
+    .pau-sphere {
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        width: 80%;
+        margin-top: -25px;
+        display: none;
+    }
+
+    .pau-spheremb {
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        width: 30%;
+        margin-top: -25px;
+    }
+
+
+    @keyframes updown {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-25px);
+        }
+    }
+
+    .btnh{
+        position: relative;
+        padding: 40px 40px;
+        margin: 70px auto;
+        color: #f4a806;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+    
+    }
+    .btnh:hover{
+        background: #03e9f4;
+        color: #000000;
+        font-weight: 700;
+        box-shadow: 0 0 5px #03e9f4,
+                    0 0 15px #03e9f4,
+                    0 0 40px #03e9f4,
+                    0 0 200px #03e9f4;
+        -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    }
+    .btnh:hover:nth-child(1){
+        filter: hue-rotate(270deg);
+    }
+    .btnh:nth-child(2){
+        filter: hue-rotate(110deg);
+    }
+    .btnh span{
+        position: absolute;
+        display: block;
+    }
+    .btnh span:nth-child(1){
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg,transparent,#03e9f4);
+        animation: animate1 1s linear infinite;
+    }
+    @keyframes animate1{
+        0%{
+            left: -100%;
+        }
+        50%,100%{
+            left: 100%;
+        }
+    }
+    .btnh span:nth-child(2){
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg,transparent,#03e9f4);
+        animation: animate2 1s linear infinite;
+        animation-delay: 0.25s;
+    }
+    @keyframes animate2{
+        0%{
+            top: -100%;
+        }
+        50%,100%{
+            top: 100%;
+        }
+    }
+    .btnh span:nth-child(3){
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg,transparent,#03e9f4);
+        animation: animate3 1s linear infinite;
+        animation-delay: 0.50s;
+    }
+    @keyframes animate3{
+        0%{
+            right: -100%;
+        }
+        50%,100%{
+            right: 100%;
+        }
+    }
+
+
+    .btnh span:nth-child(4){
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg,transparent,#03e9f4);
+        animation: animate4 1s linear infinite;
+        animation-delay: 0.75s;
+    }
+    @keyframes animate4{
+        0%{
+            bottom: -100%;
+        }
+        50%,100%{
+            bottom: 100%;
+        }
+    }
+
+
+
+/* BREAKPOINTS */
+
+/* Small Devices*/
+
+@media screen and (max-width: 305px) {
+
+    .home {
+        height: 100vh;
+        width: 100%;
+        background: url('../assets/img/herobackwth2.jpg') no-repeat;
+        background-size: cover;
+        background-position: right;
+        padding: 9rem 0;
+    }
+
+    .hero-text {
+        display: grid;
+        row-gap: 3rem;
+        padding: 0 3rem;
+    }
+
+    .hero-text h1 {
+        text-align: center;
+        font-size: 1.75rem;
+    }
+
+    .hero-text p {
+        text-align: center;
+        font-size: 0.8rem;
+        color: rgb(233, 233, 233);
+    }
+    
+    .btnh{
+        position: relative;
+        padding: 40px 40px;
+        margin: 40px auto;
+        font-size: 0.5rem;
+        color: #f4a806;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+    }
+
+    .pau-sphere {
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        width: 80%;
+        margin-top: -25px;
+        display: none;
+    }
+
+    .pau-spheremb {
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        width: 70%;
+        margin-top: -25px;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+}
+
+/*Taller Devices */
+
+@media screen and (min-width: 360px) {
+    
+    .home {
+        height: 100vh;
+        width: 100%;
+        background: url('../assets/img/herobackwth2.jpg') no-repeat;
+        background-size: cover;
+        background-position: center right;
+        padding: 8.6rem 0;
+    }
+
+    .pau-sphere {
+        display: none;
+    }
+
+    .pau-spheremb {
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        width: 60%;
+        margin-top: 0px;
+    }
+
+    .hero-text h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        text-align: center;
+        font-size: 0.8rem;
+        margin: -1rem 0;
+        color: rgb(233, 233, 233);
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .btnh{
+        position: relative;
+        padding: 40px 40px;
+        margin: 10px auto;
+        font-size: 0.7rem;
+        color: #f4a806;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+    }
+}
+
+/* Medium Devices */
+
+@media screen and (min-width: 576px) {
+    
+    .home {
+        height: 100vh;
+        width: 100%;
+        background: url('../assets/img/herobackwth2.jpg') no-repeat;
+        background-size: cover;
+        background-position: center right;
+        padding: 10rem 0;
+    }
+
+    .pau-sphere {
+        display: none;
+    }
+
+    .pau-spheremb {
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        width: 80%;
+        margin-top: -5px;
+    }
+
+    .hero-text {
+        display: grid;
+        row-gap: 3rem;
+        padding: 0 4rem;
+    }
+
+    .hero-text h1 {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    .hero-text p {
+        text-align: center;
+        font-size: 1.3rem;
+        line-height: 35px;
+        color: rgb(233, 233, 233);
+    }
+
+    .social-icons {
+        display: none;
+    }
+}
+
+
+/* Tablet Devices */
+
+@media screen and (min-width: 767px) {
+    
+    .home {
+        height: 70rem;
+        width: 100%;
+        background: url('../assets/img/herobackwth2.jpg') no-repeat;
+        background-size: cover;
+        background-position: center right;
+        padding: 7rem 0;
+    }
+
+    .social-icons {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .social-icons a {
+        color: #f4a806;
+        text-decoration: none;
+        text-shadow: 2px 0px 1em #eecf8d;
+        transform: scale(1.5);
+        margin: 3rem 0;
+      }
+
+      .social-icons a:hover {
+        color: #06f6fd;
+        text-decoration: none;
+        transform: scale(1.2);
+        text-shadow: 2px 0px 1em #06f6fd;
+      }
+
+      .pau-spheremb {
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        width: 40%;
+        margin-top: -5px;
+    }
+
+    .hero-text {
+        display: grid;
+        row-gap: 3rem;
+        padding: 0 4rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .hero-text h1 {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    .hero-text p {
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 35px;
+        color: rgb(233, 233, 233);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .home {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background: url('../assets/img/herobackwth2.jpg') no-repeat;
+        background-size: cover;
+        background-position: right;
+        padding: 9rem 0;
+    }
+
+ 
+    .pau-spheremb {
+        display: none;
+
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        row-gap: 3rem;
+        padding: 0 4rem;
+        margin-left: 130px;
+    }
+
+    .hero-text h1 {
+        text-align: justify;
+        font-size: 3rem;
+    }
+
+    .hero-text p {
+        text-align: justify;
+        font-size: 0.8rem;
+        line-height: 35px;
+        color: rgb(233, 233, 233);
+    }
+
+    .pau-sphere {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        width: 40%;
+        display: flex;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        transform: scale(1);
+        row-gap: 0px;
+        margin-left: -85px;
+        margin-top: -20px;
+      }
+
+      .social-icons a {
+        color: #f4a806;
+        text-decoration: none;
+        text-shadow: 2px 0px 1em #eecf8d;
+      }
+
+      .social-icons a:hover {
+        color: #06f6fd;
+        text-decoration: none;
+        transform: scale(2);
+        text-shadow: 2px 0px 1em #06f6fd;
+      }
+
+    
+}
+
+@media screen and (min-width: 1350px) {
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        row-gap: 3rem;
+        padding: 0 4rem;
+        margin-left: 130px;
+    }
+
+    .hero-text h1 {
+        text-align: justify;
+        font-size: 5rem;
+    }
+
+    .hero-text p {
+        text-align: justify;
+        font-size: 1.2rem;
+        line-height: 35px;
+        color: rgb(233, 233, 233);
+
+    }
+
+    .pau-sphere {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        width: 500px;
+        height: 500px;
+        display: flex;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        transform: scale(1);
+        row-gap: 0px;
+        margin-left: -85px;
+        margin-top: -20px;
+      }
+
+      .social-icons a {
+        color: #f4a806;
+        text-decoration: none;
+        text-shadow: 2px 0px 1em #eecf8d;
+      }
+
+      .social-icons a:hover {
+        color: #06f6fd;
+        text-decoration: none;
+        transform: scale(2);
+        text-shadow: 2px 0px 1em #06f6fd;
+      }
+
+
+
+
+}
+
+@media screen and (min-width: 1720px) {
+
+    .home {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background: url('../assets/img/herobackwth2.jpg') no-repeat;
+        background-size: cover;
+        background-position: top;
+        padding: 16rem 0;
+    }
+
+ 
+    .pau-spheremb {
+        display: none;
+
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        row-gap: 2rem;
+        margin-left: 180px;
+        padding: 2rem 1.5rem;
+    }
+
+    .hero-text h1 {
+        text-align: justify;
+        font-size: 4.5rem;
+    }
+
+    .hero-text p {
+        text-align: justify;
+        font-size: 1.2rem;
+        line-height: 35px;
+        color: rgb(233, 233, 233);
+    }
+
+    .pau-sphere {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        display: flex;
+        width: 700px;
+        height: 700px;
+        margin-left: 9rem;
+        margin-top: -90px;
+    }
+
+    .btnh{
+        position: relative;
+        padding: 50px 50px;
+        margin: 70px auto;
+        font-size: 1rem;
+        color: #f4a806;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden
+    }
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        transform: scale(1);
+        row-gap: 0px;
+        margin-left: -85px;
+        margin-top: -25px;
+      }
+
+      .social-icons a {
+        color: #f4a806;
+        text-decoration: none;
+        text-shadow: 2px 0px 1em #eecf8d;
+      }
+
+      .social-icons a:hover {
+        color: #06f6fd;
+        text-decoration: none;
+        transform: scale(2);
+        text-shadow: 2px 0px 1em #06f6fd;
+      }
+}
+
+
+@media screen and (orientation: landscape)
+and (min-width: 660px) and (max-width: 920px) {
+
+    .home {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background: url('../assets/img/herobackwth2.jpg') no-repeat;
+        background-size: cover;
+        background-position: right;
+        padding: 6rem 0;
+        padding-bottom: 29rem;
+    }
+
+    .pau-spheremb {
+        display: none;
+    }
+
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 2rem;
+        padding: 0rem 1.5rem;
+    }
+
+
+
+    .hero-text h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        position: relative;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 25px;
+        color: rgb(233, 233, 233);
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .social-icons {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .social-icons a {
+        color: #f4a806;
+        text-decoration: none;
+        text-shadow: 2px 0px 1em #eecf8d;
+      }
+
+      .social-icons a:hover {
+        color: #06f6fd;
+        text-decoration: none;
+        transform: scale(2);
+        text-shadow: 2px 0px 1em #06f6fd;
+      }
+
+
+}
+
+
+@media screen and (min-width: 2000px) {
+
+    .home {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background: url('../assets/img/herobackwth2.jpg') no-repeat;
+        background-size: cover;
+        background-position: top;
+        padding: 20rem 0;
+    }
+
+ 
+    .pau-spheremb {
+        display: none;
+
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        row-gap: 2rem;
+        margin-left: 17rem;
+        padding: 7rem 1.5rem;
+    }
+
+    .hero-text h1 {
+        text-align: justify;
+        font-size: 10rem;
+    }
+
+    .hero-text p {
+        text-align: justify;
+        font-size: 2rem;
+        line-height: 45px;
+        color: rgb(233, 233, 233);
+    }
+
+    .pau-sphere {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        animation: updown 2.5s  infinite ease-in-out;
+        display: flex;
+        width: 900px;
+        height: 900px;
+        margin-left: 9rem;
+        margin-top: 0px;
+    }
+
+    .btnh{
+        position: relative;
+        padding: 50px 50px;
+        margin: 70px auto;
+        font-size: 1.7rem;
+        color: #f4a806;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        transform: scale(1.5);
+        row-gap: 0px;
+        margin-left: -5rem;
+        margin-top: 4rem;
+      }
+
+      .social-icons a {
+        color: #f4a806;
+        text-decoration: none;
+        text-shadow: 2px 0px 1em #eecf8d;
+      }
+
+      .social-icons a:hover {
+        color: #06f6fd;
+        text-decoration: none;
+        transform: scale(2);
+        text-shadow: 2px 0px 1em #06f6fd;
+      }
+} 

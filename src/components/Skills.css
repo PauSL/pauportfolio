@@ -1,0 +1,256 @@
+.skills-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.skillcircles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    transform: scale(0.7);
+    padding: 2rem 0;
+    gap: 40px;
+}
+
+.skills-text h2 {
+    color: #06f6fd;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.skills-text h4 {
+    font-size: 1.4rem;
+    margin-bottom: -6rem;
+    font-weight: 400;
+    color: rgb(150, 150, 150);
+}
+
+.skill-title {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 305px) {
+
+    .skills-container {
+        width: 80%;
+        height: 40rem;
+        margin: 6rem auto;
+    }
+
+    .skillcircles {
+        transform: scale(0.5);
+        margin-top: -70px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 360px)  {
+
+    .skills-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        margin-top: 13rem;
+    }
+    
+    .skillcircles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        transform: scale(0.55);
+        gap: 80px;
+    }
+
+    .skills-text {
+        margin-bottom: -120px;
+    }
+    
+    .skills-text h2 {
+        color: #06f6fd;
+        font-size: 3rem;
+        margin: 0px 0;
+    }
+    
+    .skills-text h4 {
+        font-size: 1.4rem;
+        margin-bottom: -4.5rem;
+    }
+    
+    .skill-title {
+        font-size: 1.5rem;
+        padding-top: 0rem;
+        font-weight: 300;
+        margin: 1.5rem 0;
+    }
+}
+
+@media screen and (min-width: 767px) {
+
+    .skills-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .skills-text {
+
+        margin: 1rem 0;
+
+    }
+
+    .skills-text h2 {
+        color: #06f6fd;
+        font-size: 5rem;
+    }
+    
+    .skills-text h4 {
+        font-size: 1.4rem;
+        margin-bottom: -1rem;
+    }
+    
+    .skill-title {
+        font-size: 1.5rem;
+        padding-top: 0rem;
+        font-weight: 300;
+        margin: 2rem 0;
+    }
+
+    .skillcircles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: relative;
+        transform: scale(0.8);
+        gap: 100px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .skills-text {
+
+        margin: 1rem 0;
+
+    }
+
+    .skills-text h2 {
+        color: #06f6fd;
+        font-size: 5rem;
+    }
+    
+    .skills-text h4 {
+        font-size: 2rem;
+        margin-bottom: -1rem;
+    }
+    
+    .skill-title {
+        font-size: 1.5rem;
+        padding-top: 0rem;
+        font-weight: 300;
+        margin: 2rem 0;
+    }
+
+    .skillcircles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        transform: scale(0.85);
+        gap: 6rem;
+    }
+}
+
+@media screen and (orientation: landscape)
+and (min-width: 660px) and (max-width: 920px) {
+
+    .skills-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .skills-text h2 {
+        color: #06f6fd;
+        font-size: 5rem;
+    }
+
+    .skills-text h4 {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .skillcircles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        transform: scale(0.6);
+        gap: 6rem;
+    }
+
+
+}
+
+@media screen and (min-width: 2000px) {
+    .skills-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90rem;
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    .skills-text h2 {
+        color: #06f6fd;
+        font-size: 7rem;
+    }
+
+    .skills-text h4 {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .skillcircles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        transform: scale(1);
+        gap: 6rem;
+    }
+}
+
+
