@@ -19,7 +19,7 @@ export const Hero = () => {
                 </p>
                 <div className='social-icons'>
                     <a href="https://github.com/PauSL" target='_blank'><i className="ri-github-fill"></i></a>
-                    <a href="https://www.linkedin.com/in/pau-saezux/" target='_blank'><i className="ri-linkedin-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/pau-saezdev" target='_blank'><i className="ri-linkedin-fill"></i></a>
                     <a href="https://open.spotify.com/artist/161Wxex9nghDK9QmzKmPje?si=_OsjSbjMRYabofpxCfDyXg" target='_blank'><i className="ri-spotify-line"></i></a>
                 </div>
                 <a className='btnh' href="#">

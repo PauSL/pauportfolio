@@ -67,7 +67,7 @@
         align-items: center;
         height: 100vh;
         width: 100%;
-        margin-top: 13rem;
+        margin-top: 10rem;
     }
     
     .skillcircles {
@@ -101,6 +101,24 @@
     }
 }
 
+@media screen and (min-width: 375px)  {
+
+    .skills-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 100%;
+        margin-top: 7rem;
+    }
+
+    .skills-text {
+        margin-bottom: -4rem;
+    }
+}
+
 @media screen and (min-width: 767px) {
 
     .skills-container {
@@ -109,9 +127,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 60rem;
+        height: 60vh;
         width: 100%;
         margin-top: 1rem;
+        margin-bottom: 3rem;
     }
 
     .skills-text {
