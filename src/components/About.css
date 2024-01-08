@@ -5,7 +5,7 @@
     min-height: 70vh;
     padding: 15rem 5rem;
     grid-template-columns: repeat(2, 1fr);
-    width: 90%;
+    width: 40%;
 }
 
 .timabout {
@@ -33,6 +33,7 @@
 
 
 .about-image {
+    display: flex;
     border-radius: 50%;
     width: 70%;
 }
@@ -437,3 +438,139 @@
 
 }
 
+
+@media screen and (min-width: 1400px) {
+  
+
+.about-section {
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  min-height: 90vh;
+  padding: 10rem 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+}
+
+.timabout {
+  margin-left: 2rem;
+}
+
+.timabout h2{
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.timabout span {
+  color: var(--color--acc);
+}
+
+.about__data {
+  background: #0f0f0f;
+  border-radius: 4rem 0 4rem 0rem;
+  padding: 2rem 4rem;
+  box-shadow: 5px 5px 5px #333333;
+}
+
+
+
+.about-image {
+  display: flex;
+  border-radius: 50%;
+  width: 80%;
+}
+
+.about-desc{
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: white;
+  font-weight: 500;
+}
+
+
+
+.btnnav2 {
+  margin-top: 2rem;
+}
+
+.btnnav2 {
+  font-family: 'Figtree';
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: initial;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  transition: 0.2s;
+}
+
+.btnnav2:hover {
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  padding: 1.1rem 3.1rem;
+  background: var(--clr);
+  color: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+  animation: box 2s infinite;
+}
+
+.btnnav2::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #191a17;
+}
+
+.btnnav2 span {
+  position: relative;
+  z-index: 1;
+}
+.btnnav2 i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.btnnav2 i::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 80%;
+  top: -2px;
+  border: 2px solid var(--clr);
+  background: #272822;
+  transition: 0.2s;
+}
+
+.btnnav2:hover i::before {
+  width: 15px;
+  left: 20%;
+  animation: move 3s infinite;
+}
+
+.btnnav2 i::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 20%;
+  bottom: -2px;
+  border: 2px solid var(--clr);
+  background: #272822;
+  transition: 0.2s;
+}
+
+.btnnav2:hover i::after {
+  width: 15px;
+  left: 80%;
+  animation: move 3s infinite;
+}
+
+}
