@@ -310,7 +310,7 @@
 @media screen and (min-width: 360px) {
     
     .home {
-        height: 100vh;
+        height: 125vh;
         width: 100%;
         background: url('../assets/img/herobackwth2.jpg') no-repeat;
         background-size: cover;

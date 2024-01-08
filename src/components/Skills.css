@@ -65,7 +65,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 140vh;
         width: 100%;
         margin-top: 10rem;
     }
@@ -109,7 +109,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 90vh;
+        height: 180vh;
         width: 100%;
         margin-top: 7rem;
     }
