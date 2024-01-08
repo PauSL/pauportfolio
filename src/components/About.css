@@ -3,7 +3,7 @@
     display: grid;
     align-items: center;
     min-height: 70vh;
-    padding: 10rem 5rem;
+    padding: 15rem 5rem;
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
 }
