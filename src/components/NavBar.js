@@ -25,7 +25,7 @@ export const NavBar = () => {
                         <li className='nav-item' style={{"listStyle": "none" }}><a href="#projects">Projects</a></li>
                     </ul> 
 
-                    <button className='btnnav' style={{ "--clr": "#06f6fd" }}><span>Let's Connect!</span><i></i></button>
+                    <a href='https://www.linkedin.com/in/pau-saezdev/' target='_blank' ><button className='btnnav' style={{ "--clr": "#06f6fd" }}><span>Let's Connect!</span><i></i></button> </a>
                     
                     {/* Close Button */}
                     <div className='nav-close' onClick={closeMenu}>
