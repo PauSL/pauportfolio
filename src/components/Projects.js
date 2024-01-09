@@ -5,6 +5,9 @@ import portfolio1 from '../assets/img/portfolio1.png';
 import captport from '../assets/img/captport.jpg';
 import igport from '../assets/img/igport.jpg';
 import musport from '../assets/img/musport.jpg';
+import novaex from '../assets/img/novaex.jpg';
+import redditcl from '../assets/img/redditcl.jpg';
+import igenes from '../assets/img/igenes.jpg'
 
 
 export const Projects = () => {
@@ -53,32 +56,31 @@ export const Projects = () => {
                 </article>
                 <article className="portfolio-item">
                     <div className="portfolio-img">
-                        <img src={portfolio1} alt="" />
+                        <img src={novaex} alt="" />
                     </div>
-                    <h3>This is a portfolio item</h3>
+                    <h3>Mr.Nova Band Website</h3>
                     <div className="portfolio-cta">
-                    <a href="https://github.com/PauSL/capture-portf" className="pbtn">Github</a>
-                    <a href="https://github.com/PauSL/capture-portf" className="rbtn">Live Demo</a>
+                    <a href="" className="pbtn">Github</a>
+                    <a href="https://www.mrnovaoficial.com/" className="rbtn">Live Website</a>
                     </div>
                 </article>
                 <article className="portfolio-item">
                     <div className="portfolio-img">
-                        <img src={portfolio1} alt="" />
+                        <img src={redditcl} alt="" />
                     </div>
-                    <h3>This is a portfolio item</h3>
+                    <h3>Reddit Clone</h3>
                     <div className="portfolio-cta">
-                    <a href="https://github.com/PauSL/capture-portf" className="pbtn">Github</a>
-                    <a href="https://github.com/PauSL/capture-portf" className="rbtn">Live Demo</a>
+                    <a href="https://github.com/PauSL/redditClone" className="pbtn">Github</a>
+                    <a href="https://reddit-clone-three-inky.vercel.app/" className="rbtn">Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio-item">
                     <div className="portfolio-img">
-                        <img src={portfolio1} alt="" />
+                        <img src={igenes} alt="" />
                     </div>
-                    <h3>This is a portfolio item</h3>
+                    <h3>Igenesport Website (Wordpress)</h3>
                     <div className="portfolio-cta">
-                    <a href="https://github.com/PauSL/capture-portf" className="gbtn">Github</a>
-                    <a href="https://github.com/PauSL/capture-portf" className="dbtn">Live Demo</a>
+                    <a href="https://igenesport.com/" className="dbtn">Live Web</a>
                     </div>
                 </article>
              </div>
