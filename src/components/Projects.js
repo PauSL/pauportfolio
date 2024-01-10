@@ -30,8 +30,8 @@ export const Projects = () => {
                     </div>
                     <h3>Music Player App</h3>
                     <div className="portfolio-cta">
-                    <a href="https://github.com/PauSL/MusicPlayerApp" className="pbtn">Github</a>
-                    <a href="https://novamusicplayer.netlify.app/" className="rbtn">Live Demo</a>
+                    <a href="https://github.com/PauSL/MusicPlayerApp" className="pbtn" target="_blank" >Github</a>
+                    <a href="https://novamusicplayer.netlify.app/" className="rbtn" target="_blank" >Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio-item">
@@ -40,8 +40,8 @@ export const Projects = () => {
                     </div>
                     <h3>Ignite App</h3>
                     <div className="portfolio-cta">
-                    <a href="https://github.com/PauSL/IgniteApp" className="pbtn">Github</a>
-                    <a href="https://igniteeapp.netlify.app/" className="rbtn">Live Demo</a>
+                    <a href="https://github.com/PauSL/IgniteApp" className="pbtn" target="_blank" >Github</a>
+                    <a href="https://igniteeapp.netlify.app/" className="rbtn" target="_blank" >Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio-item">
@@ -50,8 +50,8 @@ export const Projects = () => {
                     </div>
                     <h3>Animated Portfolio</h3>
                     <div className="portfolio-cta">
-                    <a href="https://github.com/PauSL/capture-portf" className="pbtn">Github</a>
-                    <a href="https://caputreproject.netlify.app/" className="rbtn">Live Demo</a>
+                    <a href="https://github.com/PauSL/capture-portf" className="pbtn" target="_blank" >Github</a>
+                    <a href="https://caputreproject.netlify.app/" className="rbtn" target="_blank" >Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio-item">
@@ -60,8 +60,7 @@ export const Projects = () => {
                     </div>
                     <h3>Mr.Nova Band Website</h3>
                     <div className="portfolio-cta">
-                    <a href="" className="pbtn">Github</a>
-                    <a href="https://www.mrnovaoficial.com/" className="rbtn">Live Website</a>
+                    <a href="https://www.mrnovaoficial.com/" className="rbtn" target="_blank" >Live Website</a>
                     </div>
                 </article>
                 <article className="portfolio-item">
@@ -70,8 +69,8 @@ export const Projects = () => {
                     </div>
                     <h3>Reddit Clone</h3>
                     <div className="portfolio-cta">
-                    <a href="https://github.com/PauSL/redditClone" className="pbtn">Github</a>
-                    <a href="https://reddit-clone-three-inky.vercel.app/" className="rbtn">Live Demo</a>
+                    <a href="https://github.com/PauSL/redditClone" className="pbtn" target="_blank" >Github</a>
+                    <a href="https://reddit-clone-three-inky.vercel.app/" className="rbtn" target="_blank" >Live Demo</a>
                     </div>
                 </article>
                 <article className="portfolio-item">
@@ -80,7 +79,7 @@ export const Projects = () => {
                     </div>
                     <h3>Igenesport Website (Wordpress)</h3>
                     <div className="portfolio-cta">
-                    <a href="https://igenesport.com/" className="dbtn">Live Web</a>
+                    <a href="https://igenesport.com/" className="dbtn" target="_blank" >Live Website</a>
                     </div>
                 </article>
              </div>
